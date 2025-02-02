@@ -26,13 +26,12 @@ def get_marks(name: list[str] = Query([])):
     result = [marks_data.get(n, None) for n in name]
     return {"marks": result}
 
-'''
-git init
-git add .
-git commit -m "Initial commit"
-Create the repository in the Github website and then connect remotely
-git remote add origin https://github.com/vitoiitmBSc/Just_check_again
-# This will push the file in to the repository
-git push -u origin master check again
 
-'''
+# git init
+# git add .
+# git commit -m "Initial commit"
+# Create the repository in the Github website and then connect remotely
+# git remote add origin https://github.com/vitoiitmBSc/Just_check_again
+# # This will push the file in to the repository
+# git push -u origin master check again
+
